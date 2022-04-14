@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import Styles from "./header.module.css";
-import { IconBookmark, IconHome } from "@/icons";
+import styles from "./header.module.css";
+import IconBookmark from "../../public/images/icons/bookmark.svg";
 
 export function Header() {
   return (
     <header>
-      <nav className={Styles.nav}>
-        <div className={Styles.brand}>
+      <nav className={styles.nav}>
+        <div className={styles.brand}>
           <Link href="/">
             <a>
               <Image
@@ -24,7 +24,7 @@ export function Header() {
           <li>
             <Link href="/">
               <a>
-                <IconHome />
+                <IconBookmark />
                 Home
               </a>
             </Link>

@@ -4,8 +4,9 @@ Conteúdo desenvolvido pelo Imersão FrontExpert, onde foi passado algumas dicas
 
 ## Fotos
 
- <!-- <img src="public/img.png" > -->
-
+ 
+ <img src="public/img1.png" >| <img src="public/img2.png" >
+| :---: | :---: |
 ## Projeto Figma
 https://www.figma.com/file/WQQusGr055AVs3lQ8M6TU0/OnFoodIFX?node-id=6%3A6558
 ### Tecnologias
@@ -16,6 +17,8 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 - [Typescript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [Tailwind CSS ](https://tailwindcss.com/)
+- [HeadlessUI](https://headlessui.dev/react/menu)
+- [React Query](https://react-query.tanstack.com/)
 
 
 ### Tutorial de instalação
